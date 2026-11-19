@@ -1,0 +1,11 @@
+{
+  "validation_evidence_unique_event_market_rows": 2303,
+  "analysis_fixture_outcome_horizon_rows": 2750,
+  "duplicate_analysis_rows": 0,
+  "future_observation_leaks": 0,
+  "invalid_probabilities": 0,
+  "orientation_failures_selected": 0,
+  "settlement_crosscheck_failures_selected": 0,
+  "selected_snapshot_count": 1996,
+  "analysis_eligible_snapshot_count": 1282
+}

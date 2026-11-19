@@ -1,0 +1,6 @@
+forecast_horizon,common_fixture_count,closing_reference_horizon,brier_score_common_set,paired_brier_difference_vs_closing,paired_difference_95ci_low,paired_difference_95ci_high,bootstrap_unit,bootstrap_replicates,status
+pregame_24h,133,pregame_closing_5m,0.19157497932330828,-0.00016645112781955333,-0.002026037593984965,0.0016100526315789407,fixture,1000,ok
+pregame_6h,133,pregame_closing_5m,0.191642257518797,-9.917293233082615e-05,-0.0015962781954887183,0.0015124812030075257,fixture,1000,ok
+pregame_1h,133,pregame_closing_5m,0.1918828590225564,0.00014142857142857278,-0.001136428571428572,0.00146353383458647,fixture,1000,ok
+pregame_30m,133,pregame_closing_5m,0.1924707537593985,0.0007293233082706763,-6.597744360902317e-05,0.0015539473684210534,fixture,1000,ok
+pregame_closing_5m,133,pregame_closing_5m,0.19174143045112785,0.0,0.0,0.0,fixture,1000,ok

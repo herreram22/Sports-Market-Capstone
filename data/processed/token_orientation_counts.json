@@ -1,0 +1,9 @@
+{
+  "pilot_market_count": 25,
+  "token_mapping_status": {
+    "matched": 25
+  },
+  "settlement_crosscheck_status": {
+    "matched": 25
+  }
+}

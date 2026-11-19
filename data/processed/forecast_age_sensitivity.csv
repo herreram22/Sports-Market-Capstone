@@ -1,0 +1,191 @@
+league,forecast_horizon,maximum_observation_age_minutes,selected_fixture_count,forecasts_within_age_limit,eligible_forecasts_within_age_limit
+La Liga,ingame_15m,1,50,21,21
+La Liga,ingame_15m,5,50,21,21
+La Liga,ingame_15m,10,50,21,21
+La Liga,ingame_30m,1,50,24,24
+La Liga,ingame_30m,5,50,24,24
+La Liga,ingame_30m,10,50,24,24
+La Liga,ingame_60m,1,50,19,19
+La Liga,ingame_60m,5,50,21,21
+La Liga,ingame_60m,10,50,21,21
+La Liga,ingame_75m,1,50,23,23
+La Liga,ingame_75m,5,50,24,24
+La Liga,ingame_75m,10,50,24,24
+La Liga,ingame_90m,1,50,24,24
+La Liga,ingame_90m,5,50,25,25
+La Liga,ingame_90m,10,50,25,25
+La Liga,ingame_halftime,1,50,25,0
+La Liga,ingame_halftime,5,50,25,0
+La Liga,ingame_halftime,10,50,25,0
+La Liga,pregame_1h,30,50,49,25
+La Liga,pregame_1h,60,50,49,25
+La Liga,pregame_1h,180,50,49,25
+La Liga,pregame_1h,360,50,49,25
+La Liga,pregame_24h,30,50,50,25
+La Liga,pregame_24h,60,50,50,25
+La Liga,pregame_24h,180,50,50,25
+La Liga,pregame_24h,360,50,50,25
+La Liga,pregame_30m,30,50,49,25
+La Liga,pregame_30m,60,50,49,25
+La Liga,pregame_30m,180,50,49,25
+La Liga,pregame_30m,360,50,49,25
+La Liga,pregame_6h,30,50,49,25
+La Liga,pregame_6h,60,50,49,25
+La Liga,pregame_6h,180,50,49,25
+La Liga,pregame_6h,360,50,49,25
+La Liga,pregame_closing_5m,30,50,49,25
+La Liga,pregame_closing_5m,60,50,49,25
+La Liga,pregame_closing_5m,180,50,49,25
+La Liga,pregame_closing_5m,360,50,49,25
+Ligue 1,ingame_15m,1,50,14,14
+Ligue 1,ingame_15m,5,50,15,15
+Ligue 1,ingame_15m,10,50,15,15
+Ligue 1,ingame_30m,1,50,16,16
+Ligue 1,ingame_30m,5,50,18,18
+Ligue 1,ingame_30m,10,50,18,18
+Ligue 1,ingame_60m,1,50,18,18
+Ligue 1,ingame_60m,5,50,18,18
+Ligue 1,ingame_60m,10,50,18,18
+Ligue 1,ingame_75m,1,50,17,17
+Ligue 1,ingame_75m,5,50,17,17
+Ligue 1,ingame_75m,10,50,17,17
+Ligue 1,ingame_90m,1,50,17,17
+Ligue 1,ingame_90m,5,50,17,17
+Ligue 1,ingame_90m,10,50,17,17
+Ligue 1,ingame_halftime,1,50,16,0
+Ligue 1,ingame_halftime,5,50,18,0
+Ligue 1,ingame_halftime,10,50,18,0
+Ligue 1,pregame_1h,30,50,50,18
+Ligue 1,pregame_1h,60,50,50,18
+Ligue 1,pregame_1h,180,50,50,18
+Ligue 1,pregame_1h,360,50,50,18
+Ligue 1,pregame_24h,30,50,50,18
+Ligue 1,pregame_24h,60,50,50,18
+Ligue 1,pregame_24h,180,50,50,18
+Ligue 1,pregame_24h,360,50,50,18
+Ligue 1,pregame_30m,30,50,50,18
+Ligue 1,pregame_30m,60,50,50,18
+Ligue 1,pregame_30m,180,50,50,18
+Ligue 1,pregame_30m,360,50,50,18
+Ligue 1,pregame_6h,30,50,50,18
+Ligue 1,pregame_6h,60,50,50,18
+Ligue 1,pregame_6h,180,50,50,18
+Ligue 1,pregame_6h,360,50,50,18
+Ligue 1,pregame_closing_5m,30,50,50,18
+Ligue 1,pregame_closing_5m,60,50,50,18
+Ligue 1,pregame_closing_5m,180,50,50,18
+Ligue 1,pregame_closing_5m,360,50,50,18
+Bundesliga,ingame_15m,1,50,9,9
+Bundesliga,ingame_15m,5,50,16,16
+Bundesliga,ingame_15m,10,50,16,16
+Bundesliga,ingame_30m,1,50,12,12
+Bundesliga,ingame_30m,5,50,18,18
+Bundesliga,ingame_30m,10,50,18,18
+Bundesliga,ingame_60m,1,50,15,15
+Bundesliga,ingame_60m,5,50,17,17
+Bundesliga,ingame_60m,10,50,17,17
+Bundesliga,ingame_75m,1,50,19,19
+Bundesliga,ingame_75m,5,50,19,19
+Bundesliga,ingame_75m,10,50,19,19
+Bundesliga,ingame_90m,1,50,15,15
+Bundesliga,ingame_90m,5,50,17,17
+Bundesliga,ingame_90m,10,50,17,17
+Bundesliga,ingame_halftime,1,50,19,0
+Bundesliga,ingame_halftime,5,50,19,0
+Bundesliga,ingame_halftime,10,50,19,0
+Bundesliga,pregame_1h,30,50,50,19
+Bundesliga,pregame_1h,60,50,50,19
+Bundesliga,pregame_1h,180,50,50,19
+Bundesliga,pregame_1h,360,50,50,19
+Bundesliga,pregame_24h,30,50,50,19
+Bundesliga,pregame_24h,60,50,50,19
+Bundesliga,pregame_24h,180,50,50,19
+Bundesliga,pregame_24h,360,50,50,19
+Bundesliga,pregame_30m,30,50,50,19
+Bundesliga,pregame_30m,60,50,50,19
+Bundesliga,pregame_30m,180,50,50,19
+Bundesliga,pregame_30m,360,50,50,19
+Bundesliga,pregame_6h,30,50,50,19
+Bundesliga,pregame_6h,60,50,50,19
+Bundesliga,pregame_6h,180,50,50,19
+Bundesliga,pregame_6h,360,50,50,19
+Bundesliga,pregame_closing_5m,30,50,50,19
+Bundesliga,pregame_closing_5m,60,50,50,19
+Bundesliga,pregame_closing_5m,180,50,50,19
+Bundesliga,pregame_closing_5m,360,50,50,19
+Serie A,ingame_15m,1,50,17,17
+Serie A,ingame_15m,5,50,18,18
+Serie A,ingame_15m,10,50,18,18
+Serie A,ingame_30m,1,50,17,17
+Serie A,ingame_30m,5,50,19,19
+Serie A,ingame_30m,10,50,19,19
+Serie A,ingame_60m,1,50,18,18
+Serie A,ingame_60m,5,50,19,19
+Serie A,ingame_60m,10,50,19,19
+Serie A,ingame_75m,1,50,18,18
+Serie A,ingame_75m,5,50,20,20
+Serie A,ingame_75m,10,50,20,20
+Serie A,ingame_90m,1,50,21,21
+Serie A,ingame_90m,5,50,21,21
+Serie A,ingame_90m,10,50,21,21
+Serie A,ingame_halftime,1,50,19,0
+Serie A,ingame_halftime,5,50,21,0
+Serie A,ingame_halftime,10,50,21,0
+Serie A,pregame_1h,30,50,50,21
+Serie A,pregame_1h,60,50,50,21
+Serie A,pregame_1h,180,50,50,21
+Serie A,pregame_1h,360,50,50,21
+Serie A,pregame_24h,30,50,50,21
+Serie A,pregame_24h,60,50,50,21
+Serie A,pregame_24h,180,50,50,21
+Serie A,pregame_24h,360,50,50,21
+Serie A,pregame_30m,30,50,50,21
+Serie A,pregame_30m,60,50,50,21
+Serie A,pregame_30m,180,50,50,21
+Serie A,pregame_30m,360,50,50,21
+Serie A,pregame_6h,30,50,50,21
+Serie A,pregame_6h,60,50,50,21
+Serie A,pregame_6h,180,50,50,21
+Serie A,pregame_6h,360,50,50,21
+Serie A,pregame_closing_5m,30,50,50,21
+Serie A,pregame_closing_5m,60,50,50,21
+Serie A,pregame_closing_5m,180,50,50,21
+Serie A,pregame_closing_5m,360,50,50,21
+Premier League,ingame_15m,1,50,39,39
+Premier League,ingame_15m,5,50,44,44
+Premier League,ingame_15m,10,50,44,44
+Premier League,ingame_30m,1,50,40,40
+Premier League,ingame_30m,5,50,45,45
+Premier League,ingame_30m,10,50,45,45
+Premier League,ingame_60m,1,50,46,46
+Premier League,ingame_60m,5,50,48,48
+Premier League,ingame_60m,10,50,48,48
+Premier League,ingame_75m,1,50,47,47
+Premier League,ingame_75m,5,50,49,49
+Premier League,ingame_75m,10,50,49,49
+Premier League,ingame_90m,1,50,43,43
+Premier League,ingame_90m,5,50,47,47
+Premier League,ingame_90m,10,50,47,47
+Premier League,ingame_halftime,1,50,49,0
+Premier League,ingame_halftime,5,50,50,0
+Premier League,ingame_halftime,10,50,50,0
+Premier League,pregame_1h,30,50,50,50
+Premier League,pregame_1h,60,50,50,50
+Premier League,pregame_1h,180,50,50,50
+Premier League,pregame_1h,360,50,50,50
+Premier League,pregame_24h,30,50,50,50
+Premier League,pregame_24h,60,50,50,50
+Premier League,pregame_24h,180,50,50,50
+Premier League,pregame_24h,360,50,50,50
+Premier League,pregame_30m,30,50,50,50
+Premier League,pregame_30m,60,50,50,50
+Premier League,pregame_30m,180,50,50,50
+Premier League,pregame_30m,360,50,50,50
+Premier League,pregame_6h,30,50,50,50
+Premier League,pregame_6h,60,50,50,50
+Premier League,pregame_6h,180,50,50,50
+Premier League,pregame_6h,360,50,50,50
+Premier League,pregame_closing_5m,30,50,50,50
+Premier League,pregame_closing_5m,60,50,50,50
+Premier League,pregame_closing_5m,180,50,50,50
+Premier League,pregame_closing_5m,360,50,50,50

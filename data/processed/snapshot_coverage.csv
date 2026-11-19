@@ -1,0 +1,56 @@
+league,forecast_horizon,selected_fixture_count,available_forecasts,eligible_forecasts,missing_prices,missing_timing_or_cutoff,unmatched_or_uncertain_fixtures,unresolved_outcomes,uncertain_match_timing,approximate_match_timing
+La Liga,ingame_15m,50,21,21,0,29,25,25,29,19
+La Liga,ingame_30m,50,24,24,0,26,25,25,26,24
+La Liga,ingame_60m,50,21,21,0,29,25,25,29,21
+La Liga,ingame_75m,50,24,24,0,26,25,25,26,24
+La Liga,ingame_90m,50,25,25,0,25,25,25,25,24
+La Liga,ingame_halftime,50,25,0,0,25,25,25,25,25
+La Liga,pregame_1h,50,49,25,1,0,25,25,0,0
+La Liga,pregame_24h,50,50,25,0,0,25,25,0,0
+La Liga,pregame_30m,50,49,25,1,0,25,25,0,0
+La Liga,pregame_6h,50,49,25,1,0,25,25,0,0
+La Liga,pregame_closing_5m,50,49,25,1,0,25,25,0,0
+Ligue 1,ingame_15m,50,15,15,0,35,32,32,35,15
+Ligue 1,ingame_30m,50,18,18,0,32,32,32,32,18
+Ligue 1,ingame_60m,50,18,18,0,32,32,32,32,18
+Ligue 1,ingame_75m,50,17,17,0,33,32,32,33,17
+Ligue 1,ingame_90m,50,17,17,0,33,32,32,33,17
+Ligue 1,ingame_halftime,50,18,0,0,32,32,32,32,18
+Ligue 1,pregame_1h,50,50,18,0,0,32,32,0,0
+Ligue 1,pregame_24h,50,50,18,0,0,32,32,0,0
+Ligue 1,pregame_30m,50,50,18,0,0,32,32,0,0
+Ligue 1,pregame_6h,50,50,18,0,0,32,32,0,0
+Ligue 1,pregame_closing_5m,50,50,18,0,0,32,32,0,0
+Bundesliga,ingame_15m,50,16,16,0,34,31,31,34,16
+Bundesliga,ingame_30m,50,18,18,0,32,31,31,32,18
+Bundesliga,ingame_60m,50,17,17,0,33,31,31,33,16
+Bundesliga,ingame_75m,50,19,19,0,31,31,31,31,19
+Bundesliga,ingame_90m,50,17,17,0,33,31,31,33,17
+Bundesliga,ingame_halftime,50,19,0,0,31,31,31,31,19
+Bundesliga,pregame_1h,50,50,19,0,0,31,31,0,0
+Bundesliga,pregame_24h,50,50,19,0,0,31,31,0,0
+Bundesliga,pregame_30m,50,50,19,0,0,31,31,0,0
+Bundesliga,pregame_6h,50,50,19,0,0,31,31,0,0
+Bundesliga,pregame_closing_5m,50,50,19,0,0,31,31,0,0
+Serie A,ingame_15m,50,18,18,0,32,29,29,32,18
+Serie A,ingame_30m,50,19,19,0,31,29,29,31,19
+Serie A,ingame_60m,50,19,19,0,31,29,29,31,19
+Serie A,ingame_75m,50,20,20,0,30,29,29,30,20
+Serie A,ingame_90m,50,21,21,0,29,29,29,29,21
+Serie A,ingame_halftime,50,21,0,0,29,29,29,29,21
+Serie A,pregame_1h,50,50,21,0,0,29,29,0,0
+Serie A,pregame_24h,50,50,21,0,0,29,29,0,0
+Serie A,pregame_30m,50,50,21,0,0,29,29,0,0
+Serie A,pregame_6h,50,50,21,0,0,29,29,0,0
+Serie A,pregame_closing_5m,50,50,21,0,0,29,29,0,0
+Premier League,ingame_15m,50,44,44,0,6,0,0,6,44
+Premier League,ingame_30m,50,45,45,0,5,0,0,5,45
+Premier League,ingame_60m,50,48,48,0,2,0,0,2,45
+Premier League,ingame_75m,50,49,49,0,1,0,0,1,48
+Premier League,ingame_90m,50,47,47,0,3,0,0,3,47
+Premier League,ingame_halftime,50,50,0,0,0,0,0,0,50
+Premier League,pregame_1h,50,50,50,0,0,0,0,0,0
+Premier League,pregame_24h,50,50,50,0,0,0,0,0,0
+Premier League,pregame_30m,50,50,50,0,0,0,0,0,0
+Premier League,pregame_6h,50,50,50,0,0,0,0,0,0
+Premier League,pregame_closing_5m,50,50,50,0,0,0,0,0,0

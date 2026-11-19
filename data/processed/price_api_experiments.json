@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "market_id": "521526",
+  "market_question": "Will the match between Real Madrid and Atletico Madrid end in a draw?",
+  "market_description": "This market refers to the La Liga match between Real Madrid and Atletico Madrid scheduled for February 8, 2025, 3:00 PM ET.\n\nIf the match ends in a draw, this market will resolve to “Yes.” Otherwise, this market will resolve to “No.”\n\nIf the game is canceled or delayed beyond February 15, 2025, 11:59 PM ET, this market will resolve to “Yes.”\n\nThe resolution source for this market will be official information from La Liga.",
+  "market_ref": "data/raw/gamma_market/8af7918423d00542ed17.json",
+  "market_orientation": {
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "yes_index": 0,
+    "selected_yes_token": "6587513213372280812821769944108099146655098419206005117480086054603719740402"
+  },
+  "clob_market_token_crosscheck": {
+    "status": "matched",
+    "gamma_mapping": {
+      "yes": "6587513213372280812821769944108099146655098419206005117480086054603719740402",
+      "no": "59860127887670060507685922969983640527819260314107643960912146121099189047549"
+    },
+    "clob_mapping": {
+      "yes": "6587513213372280812821769944108099146655098419206005117480086054603719740402",
+      "no": "59860127887670060507685922969983640527819260314107643960912146121099189047549"
+    },
+    "raw_ref": "data/raw/clob_market_details/332df043815da64a698f.json"
+  },
+  "same_numeric_id_event_lookup": {
+    "event_id": "521526",
+    "event_title": "Dogecoin Up or Down - May 25, 6:30PM-6:35PM ET",
+    "market_id": "521526",
+    "market_question": "Will the match between Real Madrid and Atletico Madrid end in a draw?",
+    "interpretation": "Event and market numeric IDs are separate namespaces; do not infer event identity from a market ID.",
+    "event_ref": "data/raw/gamma_event_id_collision_check/0ca8244b0f3e8665ca17.json"
+  },
+  "unbounded_max_interval_fidelity_60": {
+    "observation_count": 0,
+    "raw_ref": "data/raw/clob_prices_history_experiment/9809d13df8392449f16b.json"
+  },
+  "bounded_2025_02_08_18_to_21_utc_fidelity_60": {
+    "observation_count": 3,
+    "minimum_timestamp_utc": "2025-02-08T18:00:05+00:00",
+    "maximum_timestamp_utc": "2025-02-08T20:00:06+00:00",
+    "raw_ref": "data/raw/clob_prices_history_experiment/6d9a20bbf4e34b5a986a.json"
+  },
+  "overlap_consistency": {
+    "one_minute_fidelity": {
+      "shared_timestamps": 60,
+      "exact_price_matches": 60,
+      "timestamp_units": "Unix seconds (t field; also confirmed by saved notebook conversion)"
+    },
+    "sixty_minute_fidelity": {
+      "shared_timestamps": 1,
+      "exact_price_matches": 1,
+      "timestamp_units": "Unix seconds (t field; also confirmed by saved notebook conversion)"
+    },
+    "window_1_utc": "2025-02-08T18:00:00+00:00 to 2025-02-08T20:00:00+00:00",
+    "window_2_utc": "2025-02-08T19:00:00+00:00 to 2025-02-08T21:00:00+00:00",
+    "one_minute_left_ref": "data/raw/clob_prices_history_experiment/672a44b7ed48c13c1222.json",
+    "one_minute_right_ref": "data/raw/clob_prices_history_experiment/e6849e4f0cf46b465aca.json",
+    "sixty_minute_left_ref": "data/raw/clob_prices_history_experiment/baec786da86cdfadad73.json",
+    "sixty_minute_right_ref": "data/raw/clob_prices_history_experiment/5c34c6638cc082d0ddaf.json"
+  },
+  "semantics_limit": "OpenAPI calls t an integer timestamp and p a numeric price. No documentation located in this audit establishes that p is a trade, midpoint, or original event-time price, or that each t is an original observation rather than a fidelity sample.",
+  "pagination_limit": "The endpoint schema documents startTs, endTs, interval, and fidelity; no cursor/page parameter is documented."
+}
