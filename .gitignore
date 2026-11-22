@@ -6,3 +6,7 @@ data/raw/
 /data/processed/historical_prices.csv
 
 /data/processed/price_observations.csv
+
+.venv/
+
+data/epl_checkpoints/

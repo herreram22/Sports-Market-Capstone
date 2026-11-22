@@ -1,0 +1,28 @@
+{
+  "version": "epl-v1",
+  "generated_at_utc": "2026-11-21T18:41:38.265003+00:00",
+  "python": "3.12.7",
+  "builder_sha256": "55c9c4ae5f1b601ac981a499c815e252d9639b062f464978d274eb2777c3fa30",
+  "inventory_sha256": "b8c75b545a6dcb81f1341d9aedd56c910164ef32167fd230e8035ec1c858409d",
+  "historical_prices_sha256": "cb4c5131437c0e855cd6c1e29fa811e6c9e3ec9e22b296d0c29c9933666a2d69",
+  "inventory_total": 490,
+  "processed_fixtures": 490,
+  "max_observation_age_minutes": 5,
+  "clock_bracket_minutes": 5,
+  "wallclock_bracket_minutes": 10,
+  "common_fixtures_all_eight_horizons": 261,
+  "raw_cache_note": "Original relevant Drive caches reused; missing responses collected by the API helper. Paths in rows point to source envelopes with retrieval timestamps.",
+  "validation": {
+    "fixture_count": 490,
+    "snapshot_rows": 3920,
+    "checks_passed": true
+  },
+  "exclusion_counts": {
+    "eligible": 3554,
+    "clock_bracket_too_wide": 282,
+    "target_not_bracketed_by_commentary": 49,
+    "price_exceeds_maximum_age": 3,
+    "completed_sporting_result_unavailable;unresolved_or_nonbinary_draw_contract;CLOB_settlement_not_confirmed": 32
+  },
+  "collection_errors": []
+}

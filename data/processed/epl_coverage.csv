@@ -1,0 +1,9 @@
+horizon,fixtures,eligible,draws,non_draws,missing_price,excluded
+pregame_30m,490,486,133,353,3,4
+pregame_closing_5m,490,486,133,353,3,4
+ingame_15m,490,407,113,294,83,83
+ingame_30m,490,422,113,309,68,68
+ingame_45m,490,392,108,284,98,98
+ingame_60m,490,451,117,334,39,39
+ingame_75m,490,467,130,337,23,23
+ingame_90m,490,443,118,325,47,47

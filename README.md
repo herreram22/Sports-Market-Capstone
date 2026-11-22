@@ -1,5 +1,20 @@
 # Sports-Market-Capstone
 
+## EPL analysis dataset
+
+The EPL-specific builder processes all 490 fixture records in the frozen inventory and writes eight rows per fixture: 30 and 5 minutes before kickoff, then match minutes 15, 30, 45, 60, 75, and 90. Read [the dataset guide](reports/epl_dataset_guide.md) and [coverage report](reports/epl_coverage_report.md) before analysis. Filter `analysis_eligible=True`; missing values and exclusions remain in the file.
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements-epl-lock.txt
+.venv/bin/python -B scripts/build_epl_snapshots.py
+.venv/bin/python -B scripts/verify_epl_dataset.py
+.venv/bin/python -B -m unittest discover -s tests -v
+```
+
+The final handoff is `data/processed/epl_snapshots.csv`. The builder reuses supplied historical prices and raw caches, fetches missing responses, and resumes completed fixtures from ignored checkpoints. Five-league outputs below are preserved. The original source archive is linked in the guide.
+
+
 ## Reproducible calibration datasets
 
 The initial notebook's **2,334** figure is a count of listings with draw markets, not verified unique fixtures. The calibration-data builder below reuses the Polymarket ingestion, market-orientation, and ESPN result helpers in `scripts/validate_pipeline.py`. It creates connected fixture, historical-price, and forecast-snapshot tables. ESPN completed scores can qualify without an official competition feed; an official feed is an optional cross-check. Sporting-score draw labels and Polymarket Yes/No settlement labels remain separate.
