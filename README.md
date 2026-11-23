@@ -14,6 +14,34 @@ uv pip install --python .venv/bin/python -r requirements-epl-lock.txt
 
 The final handoff is `data/processed/epl_snapshots.csv`. The builder reuses supplied historical prices and raw caches, fetches missing responses, and resumes completed fixtures from ignored checkpoints. Five-league outputs below are preserved. The original source archive is linked in the guide.
 
+### Soccer first-goal price feasibility pilot
+
+Run the independently timed pilot on 15 reproducibly selected EPL fixtures:
+
+```bash
+python3 scripts/soccer_goal_response_pilot.py --limit 15
+```
+
+Fixtures are selected by SHA-256 of `fixture_id` after requiring at least 10 timestamped historical observations between scheduled kickoff and kickoff + 45 minutes. Price movements never affect selection. The script reuses the fixture inventory and historical-price CSV, crosswalks ordered teams and fixture date/kickoff against FotMob, caches raw FotMob responses under ignored `data/raw/fotmob_*`, and writes an event/price audit CSV, paired plot, optional 3-outcome price panels, and report.
+
+The existing historical-price cache contains EPL draw-contract histories, not home/away win histories. The script reuses those draw observations, finds the separate home-win and away-win binary contracts in the cached Gamma event, verifies Yes/No token mappings against CLOB market details, and fetches their timestamped histories. All three series are written to `data/processed/soccer_three_way_price_history.csv`; raw Gamma/CLOB responses are cached under ignored `data/raw/`. FotMob's `firstHalfStarted` is retained as provided; the script infers a numeric UTC offset only when it uniquely agrees with both UTC kickoff fields, and flags that the timezone name is unavailable. Add independently verified `half_start_utc` or `half_start_timezone` and missing goal fields to `data/processed/soccer_goal_manual_overrides.csv` to use the manual fallback. The generated pilot report records the resulting coverage and limitations.
+
+### All-league goal event study
+
+Build full-match FotMob goal rows and fixture/price coverage from every row in `data/processed/fixtures.csv`:
+
+```bash
+python3 scripts/build_soccer_goal_event_study_data.py
+```
+
+The builder joins all five supported leagues to FotMob by ordered teams and fixture date/kickoff, reuses raw response caches, preserves unmatched and unavailable-feed candidates in the coverage file, and fetches a scoring-team win-price series only for timed first-half opening goals. FotMob goal timestamps remain independent of Polymarket prices; UTC bounds are blank when the half clock cannot be aligned reliably. Outputs are `data/processed/soccer_all_goals.csv`, `data/processed/soccer_goal_fixture_coverage.csv`, and `data/processed/soccer_goal_event_price_history.csv`.
+
+Run [`notebooks/soccer_goal_event_study.ipynb`](notebooks/soccer_goal_event_study.ipynb) top-to-bottom for the pooled first-half opening-goal study, paired bootstrap, original-pilot exclusion, wider-interval sensitivity, independently verified clock subset, fixture-level analysis CSV, and paired plot. The notebook reads the saved CSVs and does not make API requests. Execute it from the project root with:
+
+```bash
+python3 -m jupyter nbconvert --to notebook --execute --inplace notebooks/soccer_goal_event_study.ipynb
+```
+
 ### EPL calibration notebook
 
 [`notebooks/epl_snapshot_analysis.ipynb`](notebooks/epl_snapshot_analysis.ipynb) checks how well Polymarket draw prices match actual EPL draw rates at each forecast horizon. It:
