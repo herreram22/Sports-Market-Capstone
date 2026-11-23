@@ -14,6 +14,36 @@ uv pip install --python .venv/bin/python -r requirements-epl-lock.txt
 
 The final handoff is `data/processed/epl_snapshots.csv`. The builder reuses supplied historical prices and raw caches, fetches missing responses, and resumes completed fixtures from ignored checkpoints. Five-league outputs below are preserved. The original source archive is linked in the guide.
 
+### EPL calibration notebook
+
+[`notebooks/epl_snapshot_analysis.ipynb`](notebooks/epl_snapshot_analysis.ipynb) checks how well Polymarket draw prices match actual EPL draw rates at each forecast horizon. It:
+
+1. Loads `epl_snapshots.csv` with pandas, orders the eight horizons chronologically, and reports row, eligibility, and price coverage per horizon.
+2. Keeps only `analysis_eligible=True` rows. Each fixture appears at most once per horizon, so every horizon is analysed separately rather than pooling a match's eight rows.
+3. Places each observation in a probability bin by its quoted draw price. Bins include their lower edge and exclude their upper edge; a price of exactly 1.0 goes in the last bin.
+4. For each set of bins, draws two 2×4 grids of charts, one panel per horizon:
+   - **Distribution:** number of matches in each bin.
+   - **Calibration:** the share of each bin's matches that ended in a draw, plotted against the bin's mean market probability, with the y = x line for perfect calibration. Error bars are 95% Wilson intervals, each point is labelled with its match count, and bins with fewer than 20 matches are hollow and left off the connecting line.
+5. Reports per-bin tables (matches, draws, mean market probability, actual draw rate, interval, gap) and per-horizon Brier score and expected calibration error (ECE).
+
+It runs two binnings:
+
+| Analysis | Bin edges (%) |
+|---|---|
+| 10-point bins | 0, 10, 20, …, 90, 100 |
+| Custom bins | 0, 5, 15, 25, 40, 50, 65, 75, 85, 100 |
+
+A final table compares them. Brier score is the same under both because it uses each match's own price; ECE depends on the binning.
+
+The logic lives in reusable functions in the notebook's toolkit cell. To try other bins, pass a new list of edges from 0 to 1:
+
+```python
+results = run_calibration_analysis(eligible, [0, 0.2, 0.3, 0.5, 1.0], "my bins")
+results["calibration"]  # also "counts", "summary", "binned"
+```
+
+Run it with an environment that has `requirements.txt` installed (pandas and matplotlib). Calibration plots show calibration only; how well prices separate draws from non-draws is better read from the distribution charts and the Brier score. Sample sizes differ by horizon (392–486 matches), so compare horizons with that coverage in mind.
+
 
 ## Reproducible calibration datasets
 
