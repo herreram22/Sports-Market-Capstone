@@ -1,0 +1,196 @@
+league,season,polymarket_name,fotmob_team,method
+La Liga,2025/2026,RCD Espanyol de Barcelona,Espanyol,crosswalk
+La Liga,2026/2027,RCD Espanyol de Barcelona,Espanyol,crosswalk
+Ligue 1,2025/2026,Stade Rennais FC 1901,Rennes,crosswalk
+Ligue 1,2026/2027,Stade Rennais FC 1901,Rennes,crosswalk
+Serie A,2025/2026,FC Internazionale Milano,Inter,crosswalk
+Serie A,2026/2027,FC Internazionale Milano,Inter,crosswalk
+Bundesliga,2025/2026,1. FC Köln,1. FC Köln,exact
+Bundesliga,2025/2026,Bayer 04 Leverkusen,Bayer Leverkusen,exact
+Bundesliga,2025/2026,Borussia Mönchengladbach,Borussia Mönchengladbach,exact
+Bundesliga,2025/2026,Eintracht Frankfurt,Eintracht Frankfurt,exact
+Bundesliga,2025/2026,FC Augsburg,Augsburg,exact
+Bundesliga,2025/2026,FC Bayern München,Bayern München,exact
+Bundesliga,2025/2026,Hamburger SV,Hamburger SV,exact
+Bundesliga,2025/2026,RB Leipzig,RB Leipzig,exact
+Bundesliga,2025/2026,SC Freiburg,Freiburg,exact
+Bundesliga,2025/2026,TSG 1899 Hoffenheim,Hoffenheim,exact
+Bundesliga,2025/2026,VfB Stuttgart,VfB Stuttgart,exact
+Bundesliga,2026/2027,1. FC Köln,1. FC Köln,exact
+Bundesliga,2026/2027,Bayer 04 Leverkusen,Bayer Leverkusen,exact
+Bundesliga,2026/2027,Borussia Mönchengladbach,Borussia Mönchengladbach,exact
+Bundesliga,2026/2027,Eintracht Frankfurt,Eintracht Frankfurt,exact
+Bundesliga,2026/2027,FC Augsburg,Augsburg,exact
+Bundesliga,2026/2027,FC Bayern München,Bayern München,exact
+Bundesliga,2026/2027,FC Schalke 04,Schalke 04,exact
+Bundesliga,2026/2027,Hamburger SV,Hamburger SV,exact
+Bundesliga,2026/2027,RB Leipzig,RB Leipzig,exact
+Bundesliga,2026/2027,SC Freiburg,Freiburg,exact
+Bundesliga,2026/2027,TSG 1899 Hoffenheim,Hoffenheim,exact
+Bundesliga,2026/2027,VfB Stuttgart,VfB Stuttgart,exact
+La Liga,2025/2026,Athletic Club,Athletic Club,exact
+La Liga,2025/2026,CA Osasuna,Osasuna,exact
+La Liga,2025/2026,Club Atlético de Madrid,Atlético Madrid,exact
+La Liga,2025/2026,Deportivo Alavés,Deportivo Alavés,exact
+La Liga,2025/2026,Elche CF,Elche,exact
+La Liga,2025/2026,FC Barcelona,Barcelona,exact
+La Liga,2025/2026,Getafe CF,Getafe,exact
+La Liga,2025/2026,Girona FC,Girona,exact
+La Liga,2025/2026,Levante UD,Levante,exact
+La Liga,2025/2026,RCD Mallorca,Mallorca,exact
+La Liga,2025/2026,Rayo Vallecano de Madrid,Rayo Vallecano,exact
+La Liga,2025/2026,Real Madrid CF,Real Madrid,exact
+La Liga,2025/2026,Real Oviedo,Real Oviedo,exact
+La Liga,2025/2026,Sevilla FC,Sevilla,exact
+La Liga,2025/2026,Valencia CF,Valencia,exact
+La Liga,2025/2026,Villarreal CF,Villarreal,exact
+La Liga,2026/2027,Athletic Club,Athletic Club,exact
+La Liga,2026/2027,CA Osasuna,Osasuna,exact
+La Liga,2026/2027,Club Atlético de Madrid,Atlético Madrid,exact
+La Liga,2026/2027,Deportivo Alavés,Deportivo Alavés,exact
+La Liga,2026/2027,Elche CF,Elche,exact
+La Liga,2026/2027,FC Barcelona,Barcelona,exact
+La Liga,2026/2027,Getafe CF,Getafe,exact
+La Liga,2026/2027,Levante UD,Levante,exact
+La Liga,2026/2027,Málaga CF,Málaga,exact
+La Liga,2026/2027,Rayo Vallecano de Madrid,Rayo Vallecano,exact
+La Liga,2026/2027,Real Madrid CF,Real Madrid,exact
+La Liga,2026/2027,Real Racing Club,Racing Santander,exact
+La Liga,2026/2027,Sevilla FC,Sevilla,exact
+La Liga,2026/2027,Valencia CF,Valencia,exact
+La Liga,2026/2027,Villarreal CF,Villarreal,exact
+Ligue 1,2025/2026,AS Monaco FC,Monaco,exact
+Ligue 1,2025/2026,FC Lorient,Lorient,exact
+Ligue 1,2025/2026,FC Metz,Metz,exact
+Ligue 1,2025/2026,FC Nantes,Nantes,exact
+Ligue 1,2025/2026,Le Havre AC,Le Havre,exact
+Ligue 1,2025/2026,Nice,Nice,exact
+Ligue 1,2025/2026,OGC Nice,Nice,exact
+Ligue 1,2025/2026,Olympique de Marseille,Marseille,exact
+Ligue 1,2025/2026,Paris FC,Paris FC,exact
+Ligue 1,2025/2026,Paris Saint-Germain FC,Paris Saint-Germain,exact
+Ligue 1,2025/2026,Toulouse FC,Toulouse,exact
+Ligue 1,2026/2027,AS Monaco FC,Monaco,exact
+Ligue 1,2026/2027,FC Lorient,Lorient,exact
+Ligue 1,2026/2027,Le Havre AC,Le Havre,exact
+Ligue 1,2026/2027,Le Mans FC,Le Mans,exact
+Ligue 1,2026/2027,OGC Nice,Nice,exact
+Ligue 1,2026/2027,Olympique de Marseille,Marseille,exact
+Ligue 1,2026/2027,Paris FC,Paris FC,exact
+Ligue 1,2026/2027,Paris Saint-Germain FC,Paris Saint-Germain,exact
+Ligue 1,2026/2027,Toulouse FC,Toulouse,exact
+Premier League,2025/2026,AFC Bournemouth,AFC Bournemouth,exact
+Premier League,2025/2026,Arsenal FC,Arsenal,exact
+Premier League,2025/2026,Aston Villa FC,Aston Villa,exact
+Premier League,2025/2026,Brentford FC,Brentford,exact
+Premier League,2025/2026,Brighton & Hove Albion FC,Brighton & Hove Albion,exact
+Premier League,2025/2026,Burnley FC,Burnley,exact
+Premier League,2025/2026,Chelsea FC,Chelsea,exact
+Premier League,2025/2026,Crystal Palace FC,Crystal Palace,exact
+Premier League,2025/2026,Everton FC,Everton,exact
+Premier League,2025/2026,Fulham FC,Fulham,exact
+Premier League,2025/2026,Leeds United FC,Leeds United,exact
+Premier League,2025/2026,Liverpool FC,Liverpool,exact
+Premier League,2025/2026,Manchester City FC,Manchester City,exact
+Premier League,2025/2026,Manchester United FC,Manchester United,exact
+Premier League,2025/2026,Newcastle United FC,Newcastle United,exact
+Premier League,2025/2026,Nottingham Forest FC,Nottingham Forest,exact
+Premier League,2025/2026,Sunderland AFC,Sunderland,exact
+Premier League,2025/2026,Tottenham Hotspur FC,Tottenham Hotspur,exact
+Premier League,2025/2026,West Ham United FC,West Ham United,exact
+Premier League,2025/2026,Wolverhampton Wanderers FC,Wolverhampton Wanderers,exact
+Premier League,2026/2027,AFC Bournemouth,AFC Bournemouth,exact
+Premier League,2026/2027,Arsenal FC,Arsenal,exact
+Premier League,2026/2027,Aston Villa FC,Aston Villa,exact
+Premier League,2026/2027,Brentford FC,Brentford,exact
+Premier League,2026/2027,Brighton & Hove Albion FC,Brighton & Hove Albion,exact
+Premier League,2026/2027,Chelsea FC,Chelsea,exact
+Premier League,2026/2027,Coventry City FC,Coventry City,exact
+Premier League,2026/2027,Crystal Palace FC,Crystal Palace,exact
+Premier League,2026/2027,Everton FC,Everton,exact
+Premier League,2026/2027,Fulham FC,Fulham,exact
+Premier League,2026/2027,Hull City AFC,Hull City,exact
+Premier League,2026/2027,Ipswich Town FC,Ipswich Town,exact
+Premier League,2026/2027,Leeds United FC,Leeds United,exact
+Premier League,2026/2027,Liverpool FC,Liverpool,exact
+Premier League,2026/2027,Manchester City FC,Manchester City,exact
+Premier League,2026/2027,Manchester United FC,Manchester United,exact
+Premier League,2026/2027,Newcastle United FC,Newcastle United,exact
+Premier League,2026/2027,Nottingham Forest FC,Nottingham Forest,exact
+Premier League,2026/2027,Sunderland AFC,Sunderland,exact
+Premier League,2026/2027,Tottenham Hotspur FC,Tottenham Hotspur,exact
+Serie A,2025/2026,AC Milan,Milan,exact
+Serie A,2025/2026,AS Roma,Roma,exact
+Serie A,2025/2026,Atalanta BC,Atalanta,exact
+Serie A,2025/2026,Cagliari Calcio,Cagliari,exact
+Serie A,2025/2026,Hellas Verona FC,Hellas Verona,exact
+Serie A,2025/2026,Juventus FC,Juventus,exact
+Serie A,2025/2026,Pisa SC,Pisa,exact
+Serie A,2025/2026,SSC Napoli,Napoli,exact
+Serie A,2025/2026,Torino FC,Torino,exact
+Serie A,2025/2026,US Cremonese,Cremonese,exact
+Serie A,2025/2026,US Lecce,Lecce,exact
+Serie A,2025/2026,US Sassuolo Calcio,Sassuolo,exact
+Serie A,2025/2026,Udinese Calcio,Udinese,exact
+Serie A,2026/2027,AC Milan,Milan,exact
+Serie A,2026/2027,AC Monza,Monza,exact
+Serie A,2026/2027,AS Roma,Roma,exact
+Serie A,2026/2027,Atalanta BC,Atalanta,exact
+Serie A,2026/2027,Cagliari Calcio,Cagliari,exact
+Serie A,2026/2027,Frosinone Calcio,Frosinone,exact
+Serie A,2026/2027,Juventus FC,Juventus,exact
+Serie A,2026/2027,SSC Napoli,Napoli,exact
+Serie A,2026/2027,Torino FC,Torino,exact
+Serie A,2026/2027,US Lecce,Lecce,exact
+Serie A,2026/2027,US Sassuolo Calcio,Sassuolo,exact
+Serie A,2026/2027,Udinese Calcio,Udinese,exact
+Serie A,2026/2027,Venezia FC,Venezia,exact
+Bundesliga,2025/2026,Paderborn,,none
+Ligue 1,2025/2026,Saint-Etienne,,none
+Bundesliga,2025/2026,1. FC Heidenheim 1846,FC Heidenheim,similarity
+Bundesliga,2025/2026,1. FC Union Berlin,Union Berlin,similarity
+Bundesliga,2025/2026,1. FSV Mainz 05,Mainz 05,similarity
+Bundesliga,2025/2026,BV Borussia 09 Dortmund,Borussia Dortmund,similarity
+Bundesliga,2025/2026,FC St. Pauli 1910,St. Pauli,similarity
+Bundesliga,2025/2026,SV Werder Bremen,Werder Bremen,similarity
+Bundesliga,2025/2026,VfL Wolfsburg,Wolfsburg,similarity
+Bundesliga,2026/2027,1. FC Union Berlin,Union Berlin,similarity
+Bundesliga,2026/2027,1. FSV Mainz 05,Mainz 05,similarity
+Bundesliga,2026/2027,BV Borussia 09 Dortmund,Borussia Dortmund,similarity
+Bundesliga,2026/2027,SC Paderborn 07,Paderborn,similarity
+Bundesliga,2026/2027,SV 07 Elversberg,Elversberg,similarity
+Bundesliga,2026/2027,SV Werder Bremen,Werder Bremen,similarity
+La Liga,2025/2026,RC Celta de Vigo,Celta Vigo,similarity
+La Liga,2025/2026,Real Betis Balompié,Real Betis,similarity
+La Liga,2025/2026,Real Sociedad de Fútbol,Real Sociedad,similarity
+La Liga,2026/2027,RC Celta de Vigo,Celta Vigo,similarity
+La Liga,2026/2027,RC Deportivo A Coruña,Deportivo A Coruña,similarity
+La Liga,2026/2027,Real Betis Balompié,Real Betis,similarity
+La Liga,2026/2027,Real Sociedad de Fútbol,Real Sociedad,similarity
+Ligue 1,2025/2026,AJ Auxerre,Auxerre,similarity
+Ligue 1,2025/2026,Angers SCO,Angers,similarity
+Ligue 1,2025/2026,Lille OSC,Lille,similarity
+Ligue 1,2025/2026,Olympique Lyonnais,Lyon,similarity
+Ligue 1,2025/2026,RC Strasbourg Alsace,Strasbourg,similarity
+Ligue 1,2025/2026,Racing Club de Lens,Lens,similarity
+Ligue 1,2025/2026,Stade Brestois 29,Brest,similarity
+Ligue 1,2026/2027,AJ Auxerre,Auxerre,similarity
+Ligue 1,2026/2027,Angers SCO,Angers,similarity
+Ligue 1,2026/2027,ES Troyes AC,Troyes,similarity
+Ligue 1,2026/2027,Lille OSC,Lille,similarity
+Ligue 1,2026/2027,Olympique Lyonnais,Lyon,similarity
+Ligue 1,2026/2027,RC Strasbourg Alsace,Strasbourg,similarity
+Ligue 1,2026/2027,Racing Club de Lens,Lens,similarity
+Ligue 1,2026/2027,Stade Brestois 29,Brest,similarity
+Serie A,2025/2026,ACF Fiorentina,Fiorentina,similarity
+Serie A,2025/2026,Bologna FC 1909,Bologna,similarity
+Serie A,2025/2026,Como 1907,Como,similarity
+Serie A,2025/2026,Genoa CFC,Genoa,similarity
+Serie A,2025/2026,Parma Calcio 1913,Parma,similarity
+Serie A,2025/2026,SS Lazio,Lazio,similarity
+Serie A,2026/2027,ACF Fiorentina,Fiorentina,similarity
+Serie A,2026/2027,Bologna FC 1909,Bologna,similarity
+Serie A,2026/2027,Como 1907,Como,similarity
+Serie A,2026/2027,Genoa CFC,Genoa,similarity
+Serie A,2026/2027,Parma Calcio 1913,Parma,similarity
+Serie A,2026/2027,SS Lazio,Lazio,similarity
